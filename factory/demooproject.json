@@ -1,0 +1,9 @@
+{
+	"name": "demooproject",
+	"location": "northeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "02cf9d42-a90e-4f3d-8d5e-f3929acdb621",
+		"tenantId": "aa35682e-b1ce-435d-82d0-6f52507ec3bd"
+	}
+}

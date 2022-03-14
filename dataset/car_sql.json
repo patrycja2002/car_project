@@ -1,0 +1,54 @@
+{
+	"name": "car_sql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "output_sql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "Number",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Product_number",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Name",
+				"type": "varchar"
+			},
+			{
+				"name": "Category",
+				"type": "varchar"
+			},
+			{
+				"name": "Subcategory",
+				"type": "varchar"
+			},
+			{
+				"name": "Year",
+				"type": "int",
+				"precision": 10
+			},
+			{
+				"name": "Date",
+				"type": "date"
+			},
+			{
+				"name": "Price",
+				"type": "float",
+				"precision": 15
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "result"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
